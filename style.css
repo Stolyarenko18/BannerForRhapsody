@@ -1,0 +1,173 @@
+.h1{
+    position: absolute;
+    width: 415px;
+    height: 160px;
+    left: 200px;
+    top: 110px;
+
+    /* H1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+
+    color: #FFFFFF;
+}
+
+.h2{
+    position: absolute;
+    width: 326.62px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    /* H2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    /* identical to box height, or 64px */
+
+
+    color: #FFFFFF;
+}
+
+.p1{
+    position: absolute;
+    width: 478px;
+    height: 50px;
+    left: 200px;
+    top: 300px;
+
+    /* P1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.p2{
+    position: absolute;
+    width: 343px;
+    height: 186px;
+    left: 0px;
+    top: 94px;
+
+    /* P2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.6px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+
+#header{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 1050px 30px 100px;
+    gap: 10px;
+
+    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#body{
+    width: 1440px;
+    height: 460px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#logo{
+    /* logo 1 */
+
+
+    width: 189px;
+    height: 31px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+#frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 40px 110px 42px 50px; */
+    gap: 10px;
+
+    position: absolute;
+    width: 788px;
+    height: 460px;
+    left: 0px;
+    top: 91px;
+
+    background: #000D14;
+    border-radius: 0px 130px 130px 0px;
+}
+
+#frame2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* padding: 92px 103px; */
+    gap: 30px;
+    
+    position: absolute;
+    width: 549px;
+    height: 460px;
+    left: 891px;
+    top: 91px;
+    
+    /* violet */
+    
+    background: #6D1CD6;
+    border-radius: 130px 0px 0px 130px;
+}
+
+#textBox2{
+    position: absolute;
+    width: 343px;
+    height: 280px;
+    left: 0px;
+    top: 0px;
+        margin: 92px 103px;
+}
+
+#rainbow{
+    position: absolute;
+    width: 355px;
+    height: 378px;
+    left: 50px;
+    top: 40px;
+}
